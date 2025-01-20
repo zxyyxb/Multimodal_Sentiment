@@ -2,7 +2,7 @@
 
 ## 安装依赖
 进入该项目文件夹后终端输入 pip install -r requirements.txt
-
+```
 ├── src  #包含训练数据和预测结果 
 │   ├── data #数据
 │   │   ├── 1.jpg
@@ -20,7 +20,7 @@
 ├── requirements.txt  #依赖安装
 ├── main.py  #用image和txt训练
 ├── 实验报告.pdf
-
+```
 
 ## 运行说明
 安装好依赖以后运行main.py（已经包含数据处理，模型构建，训练，结果输出等）或者img_only.py或者txt_only.py即可得到相应的预测结果
